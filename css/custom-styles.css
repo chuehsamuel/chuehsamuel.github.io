@@ -195,8 +195,7 @@ margin-right: 10px !important;
 .navbar{display: inline-block; margin-bottom: 0; }
 .navbar .nav{ display: inline-block;}
 .navbar .nav > li {font-family: 'fjalla_oneregular'; }
-.navbar .nav > li a{font-size: 22px; color: #fff;padding: 40px 35px;border-right: 0px solid #55caed;text-shadow: none;
-                    text-transform: uppercase; display: inline-block; float: left; }
+.navbar .nav > li a{font-size: 22px; color: #fff;padding: 40px 35px;text-shadow: none; text-transform: uppercase; display: inline-block; float: left;}
 .navbar .nav > li a:hover{background: none;box-shadow: none;color: #fff;}
 .navbar .nav > .active > a{background: none;box-shadow: none;color: #fff;}
 .navbar .nav > .active > a:hover{box-shadow: none; background: none;color: #fff;}
