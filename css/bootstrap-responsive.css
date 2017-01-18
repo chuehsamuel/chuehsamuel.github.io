@@ -1182,6 +1182,9 @@
 }
 
 @media (min-width: 980px) {
+
+  .navbar .nav > li > a{font-size: 18px;} 
+
   .responsive-picture img{
     height: 150px;
     width: auto;
@@ -1195,5 +1198,5 @@
 
 @media (min-width: 1025px){
   .navbar .nav > li {padding-left: 20px; padding-right: 20px;} 
-  .navbar .nav > li a{font-size: 22px;} 
+  .navbar .nav > li > a{font-size: 22px;} 
 }
