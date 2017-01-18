@@ -250,6 +250,7 @@ border: none;
 .main-caption{text-align: center; margin: 30px 20px;font-family: 'fjalla_oneregular';text-transform: uppercase;}
 .main-caption h1{font-size: 30px; line-height: 38px; color: #212428;}
 .main-caption h6{color: #212428; font-family: 'fjalla_oneregular'; padding-bottom: 15px;}
+.main-caption h5{font-size: 20px; color: #2b2b2b; text-transform: capitalize;}
 .main-caption .btn {
 background: #3f4b51;
 color: #fff;
