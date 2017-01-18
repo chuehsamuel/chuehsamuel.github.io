@@ -12,7 +12,7 @@
     font-family: 'source_sans_proregular';
     src: url('../fonts/sourcesanspro-regular-webfont.eot');
     src: url('../fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+         /*url('../fonts/sourcesanspro-regular-webfont.woff') format('woff'),*/
          url('../fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
          url('../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
     font-weight: normal;
@@ -94,7 +94,7 @@ p{ font-family: 'source_sans_proregular'; line-height: 22px;  padding-bottom: 25
 .border{ display: none;}
 .border-none{ border-bottom:none !important;}
 
-.header-wrapper{background: #174184; overflow: hidden; margin-bottom: 60px; padding: 20px 0;}
+.header-wrapper{background: #174184; overflow: hidden; margin-bottom: 20px; padding: 20px 0;}
 .i{
 color: #fff;
 font-size: 21px;
@@ -195,7 +195,7 @@ margin-right: 10px !important;
 .navbar{display: inline-block; margin-bottom: 0; }
 .navbar .nav{ display: inline-block;}
 .navbar .nav > li {font-family: 'fjalla_oneregular'; }
-.navbar .nav > li a{font-size: 22px; color: #fff;padding: 40px 35px;text-shadow: none; text-transform: uppercase; display: inline-block; float: left;}
+.navbar .nav > li a{font-size: 18px; color: #fff;padding: 40px 20px;text-shadow: none; text-transform: uppercase; display: inline-block; float: left;}
 .navbar .nav > li a:hover{background: none;box-shadow: none;color: #fff;}
 .navbar .nav > .active > a{background: none;box-shadow: none;color: #fff;}
 .navbar .nav > .active > a:hover{box-shadow: none; background: none;color: #fff;}
@@ -263,7 +263,7 @@ padding: 12px;
 }
 .main-caption .btn:hover{background: #2abde9;color: #fff;}
 
-.featured-images{ overflow: hidden;text-align: center; padding: 60px 30px;}
+.featured-images{ overflow: hidden;text-align: center; padding: 10px 30px;}
 .featured-images ul{margin: 0;}
 .featured-images h4{ text-transform: uppercase; color: #3f4b51; }
 .featured-images h6{ font-family: 'source_sans_proregular'; color: #8d8c8c; }
@@ -441,7 +441,6 @@ padding: 12px;
 /******************************************************************
                 Responsive Tweaks starts here
 *******************************************************************/
-
 
 .navbar .btn-navbar{float: left;  text-shadow: none; background: #2b2b2b;; color: #fff; margin-bottom: 5px; margin-left: 0; margin-right: 0;}
 .navbar .btn-navbar:hover{ background: #fff; color: #2abde9;}
